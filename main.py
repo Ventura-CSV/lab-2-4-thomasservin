@@ -3,9 +3,9 @@ def main():
     # Comlete your code here
     ##################################################
     original_str = 'Python Programming'
-
-    sub1 = original_str[index_slicing]
-    sub2 = original_str[index_slicing]
+    index_slicing = 5 
+    sub1 = original_str[:index_slicing]
+    sub2 = original_str[index_slicing:]
     merge_str = sub2 + sub1
     
     print(sub2)
