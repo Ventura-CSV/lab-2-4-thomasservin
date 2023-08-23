@@ -1,11 +1,19 @@
-original_str = 'Python Programming'
+def main():
+    #########################################
 
-index_slicing = 6
+    # Complete your code here
 
-sub1 = original_str[index_slicing:]
-sub2 = original_str[:index_slicing]
-merge_str = sub2 + sub1
+    #########################################
+    original_str = 'Python Programming'
+    index_slicing = 6
 
-print(sub2)
-print(sub1)
-print(merge_str)
+    sub1 = original_str[index_slicing:]
+    sub2 = original_str[:index_slicing]
+    merge_str = sub2 + sub1
+    
+    print(sub2)
+    print(sub1)
+    print(merge_str)
+pass
+if __name__ == '__main__':
+    main()
