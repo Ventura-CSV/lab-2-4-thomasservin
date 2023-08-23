@@ -5,10 +5,10 @@ def main():
 
     #########################################
     original_str = 'Python Programming'
-    index_slicing = 6
+    index_slicing = 7
 
-    sub1 = original_str[index_slicing:]
-    sub2 = original_str[:index_slicing]
+    sub1 = original_str[:index_slicing]
+    sub2 = original_str[index_slicing:]
     merge_str = sub2 + sub1
     
     print(sub2)
